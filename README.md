@@ -218,6 +218,17 @@ outputs/
 
 The four figures analyze feature-selection performance, learned weights, training behavior and candidate-sequence probabilities.
 
+### Current ablation result
+
+| Experiment | Test token accuracy | Test sentence accuracy |
+|---|---:|---:|
+| A_state_only | 92.3% | 66.7% |
+| B_transition_only | 69.2% | 66.7% |
+| C_full | 100.0% | 100.0% |
+| D_no_suffix | 84.6% | 66.7% |
+
+In this deliberately small educational dataset, the full state + transition feature configuration obtains the highest observed test accuracy. This should **not** be interpreted as a general benchmark: the dataset is tiny and was designed to make CRF calculations inspectable. The ablation mainly demonstrates that lexical/state evidence and transition structure provide complementary information.
+
 ## 12. Project Structure
 
 ```text
