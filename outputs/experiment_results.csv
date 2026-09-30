@@ -1,0 +1,1 @@
+experiment,num_weights,train_token_acc,train_sentence_acc,test_token_acc,test_sentence_acc\nA_state_only,236,0.875,0.5,0.9230769231,0.6666666667\nB_transition_only,28,0.53125,0.25,0.6923076923,0.6666666667\nC_full,260,1.0,1.0,1.0,1.0\nD_no_suffix,140,0.8125,0.5,0.8461538462,0.6666666667\n
