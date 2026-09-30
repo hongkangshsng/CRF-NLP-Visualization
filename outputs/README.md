@@ -1,0 +1,1 @@
+# Experiment outputs\n\nRun `python main.py` to regenerate CSV/TXT reports and four PNG visualizations.\n\nThe committed summary results are included for reproducibility. PNG figures are generated locally by the script.\n
